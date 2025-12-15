@@ -18,6 +18,7 @@ app.get('/api/hello', (req, res) => {
   res.json({ message: 'Hello from the backend!' });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server is running on http://0.0.0.0:${PORT}`);
 });
+

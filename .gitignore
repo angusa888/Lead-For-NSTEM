@@ -1,0 +1,27 @@
+# Root-level logs
+logs
+*.log
+npm-debug.log*
+
+# Root-level node_modules
+node_modules/
+
+#package-lock for root-only installs
+package-lock.json
+
+# Environment files for root scripts
+.env
+.env.local
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Misc
+*.local
